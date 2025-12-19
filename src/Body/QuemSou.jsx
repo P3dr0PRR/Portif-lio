@@ -6,7 +6,7 @@ export function QuemSou() {
       <div className="flex flex-col md:flex-row items-center md:items-start md:justify-between px-6 md:px-20 py-10 gap-10">
         <section className="w-full md:w-auto">
           <img
-            src="Pedro.jpg"
+            src="/Fotos/Pedro.jpg"
             alt="Foto Pedro Paulo"
             className="
               mx-auto rounded-md

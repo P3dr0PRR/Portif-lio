@@ -1,3 +1,5 @@
+import { Carrossel } from "./carrossel.jsx";
+
 export function Projetos() {
   return (
     <div>
@@ -5,7 +7,7 @@ export function Projetos() {
         Projetos
       </h2>
       <div className="flex flex-col md:flex-row w-full items-center justify-center md:justify-between px-6 md:px-20 gap-10">
-        // A adicionar
+        <Carrossel />
       </div>
       <h3 className="text-lg leading-relaxed text-white text-center mx-10 mt-10">
         Nestes projetos, pratico diariamente conceitos de HTML, CSS, Tailwind,

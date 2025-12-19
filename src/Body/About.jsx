@@ -31,7 +31,7 @@ export function About() {
         <section className="py-20">
           <div className="container mx-auto px-4">
             <img
-              src="/trabalhando.jpg"
+              src="/Fotos/trabalhando.jpg"
               alt="Foto trabalhando"
               className="mx-auto rounded-md w-full h-56 object-cover drop-shadow-[0_0_35px_rgba(124,58,237,0.5)]"
             />
