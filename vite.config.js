@@ -10,7 +10,8 @@ export default defineConfig(({ mode }) => {
     define: {
       __LANG__: JSON.stringify(lang)
     },
-    base: mode === 'production' ? '/react1/' : '/',
+    // Use root base on production so assets resolve correctly on Vercel
+    base: '/',
     plugins: [
       react(),
       compression({
