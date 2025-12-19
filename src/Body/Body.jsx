@@ -1,6 +1,7 @@
 import { About } from "../Body/About.jsx";
 import { QuemSou } from "../Body/QuemSou.jsx";
 import { Projetos } from "../Body/Projetos.jsx";
+import { Habilidades } from "../Body/Habilidades.jsx";
 
 export function Body() {
   return (
@@ -8,6 +9,7 @@ export function Body() {
       <About />
       <QuemSou />
       <Projetos />
+      <Habilidades />
     </div>
   );
 }
