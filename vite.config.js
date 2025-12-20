@@ -1,27 +1,27 @@
-import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
-import compression from 'vite-plugin-compression';
-import path from 'path';
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
+import compression from "vite-plugin-compression";
+import path from "path";
 
 export default defineConfig(({ mode }) => {
-  const lang = ['en', 'ru', 'ptBR', 'cn'].includes(mode) ? mode : 'ptBR';
+  const lang = ["en", "ru", "ptBR", "cn"].includes(mode) ? mode : "ptBR";
 
   return {
     define: {
-      __LANG__: JSON.stringify(lang)
+      __LANG__: JSON.stringify(lang),
     },
     // Use root base on production so assets resolve correctly on Vercel
-    base: '/',
+    base: "/",
     plugins: [
       react(),
       compression({
-        algorithm: 'gzip',
-        ext: '.gz',
+        algorithm: "gzip",
+        ext: ".gz",
         include: /\.(js|css|html|ttf)$/,
         deleteOriginalAssets: true,
-        enforce: 'post',
-        threshold: 0
-      })
+        enforce: "post",
+        threshold: 0,
+      }),
     ],
     server: {
       port: 5378,
@@ -31,22 +31,22 @@ export default defineConfig(({ mode }) => {
         usePolling: true,
       },
       proxy: {
-        '/api': {
-          target: 'http://localhost:5379',
+        "/api": {
+          target: "http://localhost:5379",
           changeOrigin: true,
-          secure: false
-        }
-      }
+          secure: false,
+        },
+      },
     },
     resolve: {
       alias: {
-        '@': path.resolve(__dirname, './src'),
+        "@": path.resolve(__dirname, "./src"),
       },
     },
-    publicDir: 'public',
+    publicDir: "public",
     build: {
       sourcemap: true,
-      minify: 'terser',
+      minify: "terser",
       terserOptions: {
         format: {
           comments: false, // Remove todos os comentários, inclusive os de licenciamento
@@ -54,18 +54,19 @@ export default defineConfig(({ mode }) => {
       },
       cssMinify: true,
       cssCodeSplit: true,
-      outDir: 'dist',
-      assetsDir: 'assets',
+      outDir: "dist",
+      assetsDir: "assets",
       rollupOptions: {
         input: {
-          main: path.resolve(__dirname, 'index.html'),
+          main: path.resolve(__dirname, "index.html"),
         },
         output: {
-          entryFileNames: chunk => chunk.name === 'canvas' ? 'canvas.js' : 'app.js',
-          chunkFileNames: 'assets/[name].js',
-          assetFileNames: '[name].[ext]'
-        }
-      }
-    }
+          entryFileNames: (chunk) =>
+            chunk.name === "canvas" ? "canvas.js" : "app.js",
+          chunkFileNames: "assets/[name].js",
+          assetFileNames: "[name].[ext]",
+        },
+      },
+    },
   };
 });

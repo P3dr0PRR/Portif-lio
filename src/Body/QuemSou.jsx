@@ -19,7 +19,7 @@ export function QuemSou() {
           />
         </section>
 
-        <section className="flex-1 text-left items-center justify-center my-auto text-md leading-relaxed">
+        <section className="flex-1 text-center items-center justify-center my-auto text-md leading-relaxed">
           <p>
             Me chamo Pedro Paulo e sou desenvolvedor Front-end em formação, com
             foco em JavaScript, React e criação de interfaces modernas usando
