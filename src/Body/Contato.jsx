@@ -12,8 +12,8 @@ export function Contato() {
         por telefone. Será um prazer conversar com você.
       </h3>
 
-      <div className="flex flex-col my-12 w-full text-white p-1 gap-4">
-        <div className="flex justify-between px-4">
+      <div className="flex flex-col justify-center items-center  my-12 w-full text-white p-1 gap-4">
+        <div className="flex flex-col md:flex-row  items-center justify-between md:justify-evenly w-full px-4">
           <div className="flex">
             <p className="mr-1 font-semibold">Email: </p>
             <p> pedropaulo@interlinksistemas.com.br</p>
