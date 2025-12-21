@@ -20,11 +20,11 @@ export function About() {
           </div>
           <div className="flex justify-evenly mt-10">
             <a
-              href="/Pedro_Curriculo.pdf"
+              href="/CV/Pedro_Curriculo.pdf"
               download
               className="flex gap-2 p-2 bg-blue-500 rounded-md"
             >
-              <Download /> Curriculo
+              <Download /> Currículo
             </a>
           </div>
         </section>
