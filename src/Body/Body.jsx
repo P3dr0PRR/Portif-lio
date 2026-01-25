@@ -6,7 +6,7 @@ import { Contato } from "../Body/Contato.jsx";
 
 export function Body() {
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col cursor-default">
       <About />
       <QuemSou />
       <Projetos />
