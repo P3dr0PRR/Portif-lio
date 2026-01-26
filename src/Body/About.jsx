@@ -31,7 +31,7 @@ export function About() {
         <section className="py-20">
           <div className="container mx-auto px-4">
             <img
-              loading="eager"
+              loading="lazy"
               decoding="async"
               src="/Fotos/trabalhando.jpg"
               alt="Foto trabalhando"
