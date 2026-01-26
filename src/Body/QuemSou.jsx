@@ -24,22 +24,23 @@ export function QuemSou() {
         <section className="flex-1 text-center items-center justify-center my-auto text-md leading-relaxed">
           <p>
             Me chamo Pedro Paulo e sou desenvolvedor Front-end em formação, com
-            foco em JavaScript, React e criação de interfaces modernas usando
-            Tailwind CSS. Estudo Análise e Desenvolvimento de Sistemas e sigo
-            uma rotina constante de prática, sempre buscando evoluir tanto em
-            lógica quanto em qualidade de código. Tenho o hábito de organizar
-            meus estudos de forma estruturada, criando listas de exercícios,
-            revisando conceitos e aplicando tudo em projetos reais. Isso me
-            ajudou a desenvolver uma base sólida em funções, DOM, eventos,
-            responsividade e boas práticas de desenvolvimento. Gosto de entender
-            cada etapa do processo e encontrar soluções limpas e eficientes. Sou
+            foco em JavaScript, TypeScript, React e na criação de interfaces
+            modernas utilizando Tailwind CSS. Estudo Análise e Desenvolvimento
+            de Sistemas e sigo uma rotina constante de prática, sempre buscando
+            evoluir tanto em lógica quanto em qualidade de código. Tenho o
+            hábito de organizar meus estudos de forma estruturada, criando
+            listas de exercícios, revisando conceitos e aplicando tudo em
+            projetos reais. Isso me ajudou a desenvolver uma base sólida em
+            funções, DOM, eventos, responsividade e boas práticas de
+            desenvolvimento. Gosto de entender cada etapa do processo e
+            encontrar soluções limpas, eficientes e bem estruturadas. Sou
             disciplinado, curioso e gosto de trabalhar de forma organizada.
             Acredito que um bom desenvolvedor precisa unir clareza, consistência
             e atenção aos detalhes — valores que levo comigo em cada projeto.
             Meu objetivo é conquistar meu primeiro cargo como Desenvolvedor
             Front-end, continuar aprimorando minhas habilidades e construir uma
             carreira sólida. Vejo a tecnologia como uma área de crescimento
-            constante, e estou sempre em busca da minha melhor versão como
+            constante e estou sempre em busca da minha melhor versão como
             profissional.
           </p>
         </section>

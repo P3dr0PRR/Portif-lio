@@ -6,36 +6,79 @@ export function Habilidades() {
       </h2>
       <div className="grid grid-cols-3 gap-4 mb-4">
         <div className="flex flex-col items-center">
-          <img src="/Habilidades/HTML.png" className="h-14 w-14"></img>
+          <img
+            loading="lazy"
+            decoding="async"
+            title="HTML"
+            src="/Habilidades/HTML.png"
+            className="h-14 w-14"
+          ></img>
           <p className="font-semibold">HTML</p>
         </div>
 
         <div className="flex flex-col items-center">
-          <img src="/Habilidades/CSS.png" className="h-14 w-14"></img>
+          <img
+            loading="lazy"
+            decoding="async"
+            title="CSS"
+            src="/Habilidades/CSS.png"
+            className="h-14 w-14"
+          ></img>
           <p className="font-semibold">CSS</p>
         </div>
 
         <div className="flex flex-col items-center">
-          <img src="/Habilidades/TAILWIND.png" className="h-14 w-14"></img>
+          <img
+            loading="lazy"
+            decoding="async"
+            title="TAILWIND"
+            src="/Habilidades/TAILWIND.png"
+            className="h-14 w-14"
+          ></img>
           <p className="font-semibold">TAILWIND</p>
         </div>
 
         <div className="flex flex-col items-center">
-          <img src="/Habilidades/JS.png" className="h-14 w-14"></img>
+          <img
+            loading="lazy"
+            decoding="async"
+            title="JavaScript"
+            src="/Habilidades/JS.png"
+            className="h-14 w-14"
+          ></img>
           <p className="font-semibold">JavaScript</p>
         </div>
 
         <div className="flex flex-col items-center">
-          <img src="/Habilidades/react.png" className="h-14 w-14"></img>
+          <img
+            loading="lazy"
+            decoding="async"
+            title="REACT"
+            src="/Habilidades/react.png"
+            className="h-14 w-14"
+          ></img>
           <p className="font-semibold">REACT</p>
         </div>
 
         <div className="flex flex-col items-center">
           <img
+            loading="lazy"
+            decoding="async"
+            title="BOAS PRÁTICAS"
             src="/Habilidades/BOAS.png"
             className="h-14 w-14 bg-white/80 rounded-md"
           ></img>
           <p className="font-semibold">BOAS PRÁTICAS</p>
+        </div>
+        <div className="flex flex-col items-center">
+          <img
+            loading="lazy"
+            decoding="async"
+            title="TypeScript"
+            src="/Habilidades/TS.png"
+            className="h-14 w-14"
+          ></img>
+          <p className="font-semibold">TypeScript</p>
         </div>
       </div>
       <h3 className="text-lg leading-relaxed text-white text-center mx-10 mt-10">
