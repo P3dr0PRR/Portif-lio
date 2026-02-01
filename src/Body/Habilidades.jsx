@@ -82,17 +82,15 @@ export function Habilidades() {
         </div>
       </div>
       <h3 className="text-lg leading-relaxed text-white text-center mx-10 mt-10">
-        Tenho experiência prática com HTML, CSS, Tailwind CSS, JavaScript e
-        estou avançando cada vez mais em React, criando interfaces funcionais e
-        bem organizadas. No meu dia a dia, trabalho com manipulação do DOM,
-        eventos, funções, componentes, responsividade e boas práticas de
-        estruturação de código. Busco evoluir através de projetos constantes,
-        onde aplico conceitos como organização visual, clareza na escrita do
-        código, atenção aos detalhes e construção de interfaces que realmente
-        funcionem bem. Meu foco é aprimorar continuamente minha capacidade de
-        resolver problemas, aprender novas técnicas e desenvolver soluções
-        limpas e eficientes, sempre com responsabilidade e cuidado na forma como
-        o código é escrito e entregue.
+        Tenho experiência prática com HTML, CSS, Tailwind CSS e JavaScript, e
+        venho evoluindo constantemente em React, criando interfaces funcionais,
+        organizadas e responsivas. No dia a dia, trabalho com manipulação do
+        DOM, eventos, funções e componentes, sempre aplicando boas práticas de
+        estruturação de código. Busco evoluir por meio de projetos contínuos,
+        onde priorizo organização visual, clareza na escrita do código e atenção
+        aos detalhes. Meu foco é melhorar continuamente minha capacidade de
+        resolver problemas, aprender novas técnicas e entregar soluções limpas e
+        eficientes.
       </h3>
     </div>
   );

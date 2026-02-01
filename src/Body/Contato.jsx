@@ -6,21 +6,20 @@ export function Contato() {
     <div className="flex flex-col justify-between items-center  text-white">
       <h1 className="text-4xl font-bold p-6   text-center">Contato</h1>
       <h3 className="text-lg leading-relaxed text-white text-center mx-10 mt-10">
-        Você pode falar comigo pelos links abaixo sempre que quiser trocar uma
-        ideia sobre desenvolvimento, compartilhar oportunidades ou iniciar uma
-        colaboração. Estou disponível no GitHub, LinkedIn, por email e também
-        por telefone. Será um prazer conversar com você.
+        Fique à vontade para entrar em contato comigo para trocar ideias sobre
+        desenvolvimento, compartilhar oportunidades ou iniciar uma colaboração.
+        Estou disponível pelo GitHub, LinkedIn, email ou telefone.
       </h3>
 
       <div className="flex flex-col justify-center items-center  my-12 w-full text-white p-1 gap-4">
         <div className="flex flex-col md:flex-row  items-center justify-between md:justify-evenly w-full px-4">
-          <div className="flex">
-            <p className="mr-1 font-semibold">Email: </p>
+          <div className="flex items-center md:text-xl">
+            <p className="mr-1 font-semibold ">Email: </p>
             <p> pedropaulo@interlinksistemas.com.br</p>
           </div>
 
-          <div className="flex">
-            <p className="mr-1 font-semibold">Celular: </p>
+          <div className="flex items-center md:text-xl">
+            <p className="mr-1 font-semibold ">Celular: </p>
             <p> (34)99796-7512</p>
           </div>
         </div>

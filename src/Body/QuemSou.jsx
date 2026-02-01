@@ -23,25 +23,23 @@ export function QuemSou() {
 
         <section className="flex-1 text-center items-center justify-center my-auto text-md leading-relaxed">
           <p>
-            Me chamo Pedro Paulo e sou desenvolvedor Front-end em formação, com
-            foco em JavaScript, TypeScript, React e na criação de interfaces
-            modernas utilizando Tailwind CSS. Estudo Análise e Desenvolvimento
-            de Sistemas e sigo uma rotina constante de prática, sempre buscando
-            evoluir tanto em lógica quanto em qualidade de código. Tenho o
-            hábito de organizar meus estudos de forma estruturada, criando
-            listas de exercícios, revisando conceitos e aplicando tudo em
-            projetos reais. Isso me ajudou a desenvolver uma base sólida em
-            funções, DOM, eventos, responsividade e boas práticas de
-            desenvolvimento. Gosto de entender cada etapa do processo e
-            encontrar soluções limpas, eficientes e bem estruturadas. Sou
-            disciplinado, curioso e gosto de trabalhar de forma organizada.
-            Acredito que um bom desenvolvedor precisa unir clareza, consistência
-            e atenção aos detalhes — valores que levo comigo em cada projeto.
-            Meu objetivo é conquistar meu primeiro cargo como Desenvolvedor
-            Front-end, continuar aprimorando minhas habilidades e construir uma
-            carreira sólida. Vejo a tecnologia como uma área de crescimento
-            constante e estou sempre em busca da minha melhor versão como
-            profissional.
+            Sou o Pedro Paulo, desenvolvedor Front-end em formação, com foco em
+            JavaScript, React, TypeScript e Tailwind CSS. Gosto de trabalhar com
+            interfaces simples, organizadas e que realmente funcionem bem no dia
+            a dia. Atualmente curso Análise e Desenvolvimento de Sistemas, com
+            conclusão prevista para 2026, e também Sistemas de Informação, com
+            formação até 2028. Levo os estudos a sério e mantenho uma rotina
+            constante de prática, sempre aplicando o que aprendo em projetos
+            reais. No meu dia a dia, trabalho bastante com lógica, DOM, eventos,
+            componentes, responsividade e organização de código. Tenho o hábito
+            de revisar conceitos, melhorar projetos aos poucos e buscar soluções
+            mais claras e eficientes. Tenho inglês fluente, utilizo o idioma com
+            frequência para estudar, ler documentação e consumir conteúdo
+            técnico. Pretendo realizar o TOEIC em 2026 e o CELPIP em 2028, como
+            parte do meu planejamento profissional. Hoje, meu objetivo é
+            conquistar minha primeira oportunidade como desenvolvedor Front-end,
+            ganhar experiência prática em ambiente profissional e continuar
+            evoluindo tanto tecnicamente quanto como pessoa.
           </p>
         </section>
       </div>
