@@ -1,16 +1,17 @@
 export function QuemSou() {
   return (
-    <div className="text-white text-center">
+    <section className="text-white text-center">
       <h1 className="text-4xl font-bold mb-6">Quem Sou</h1>
 
       <div className="flex flex-col md:flex-row items-center md:items-start md:justify-between px-6 md:px-20 py-10 gap-10">
-        <section className="w-full md:w-auto">
-          <img
-            loading="lazy"
-            decoding="async"
-            src="/Fotos/Pedro.jpg"
-            alt="Foto Pedro Paulo"
-            className="
+        <div className="w-full md:w-auto">
+          <figure>
+            <img
+              loading="lazy"
+              decoding="async"
+              src="/Fotos/Pedro.jpg"
+              alt="Foto Pedro Paulo"
+              className="
               mx-auto rounded-md
               w-full md:w-[320px]
               h-56 md:h-[320px]
@@ -18,10 +19,12 @@ export function QuemSou() {
               shrink-0
               drop-shadow-[0_0_35px_rgba(124,58,237,0.5)]
             "
-          />
-        </section>
+            />
+            <figcaption className="text-sm mt-2">Pedro Paulo</figcaption>
+          </figure>
+        </div>
 
-        <section className="flex-1 text-center items-center justify-center my-auto text-lg leading-relaxed">
+        <div className="flex-1 text-center items-center justify-center my-auto text-lg leading-relaxed">
           <p>
             Sou o Pedro Paulo, desenvolvedor Front-end em formação, com foco em
             JavaScript, React, TypeScript e Tailwind CSS. Gosto de trabalhar com
@@ -41,8 +44,8 @@ export function QuemSou() {
             ganhar experiência prática em ambiente profissional e continuar
             evoluindo tanto tecnicamente quanto como pessoa.
           </p>
-        </section>
+        </div>
       </div>
-    </div>
+    </section>
   );
 }

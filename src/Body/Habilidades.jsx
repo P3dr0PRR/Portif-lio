@@ -1,80 +1,90 @@
 export function Habilidades() {
   return (
-    <div>
+    <section>
       <h2 className="text-4xl font-bold mb-6 text-white text-center mt-10">
         Habilidades
       </h2>
-      <div className="grid grid-cols-3 gap-8 gap-y-12 mb-4">
-        <div className="flex flex-col items-center">
+      <ul
+        aria-label="Tecnologias que sei"
+        className="grid grid-cols-3 gap-8 gap-y-12 mb-4"
+      >
+        <li className="flex flex-col items-center">
           <img
             loading="lazy"
             decoding="async"
             title="HTML"
             src="/Habilidades/HTML.png"
+            alt="HTML"
             className="h-14 w-14"
-          ></img>
-        </div>
+          />
+        </li>
 
-        <div className="flex flex-col items-center">
+        <li className="flex flex-col items-center">
           <img
             loading="lazy"
             decoding="async"
             title="CSS"
             src="/Habilidades/CSS.png"
+            alt="CSS"
             className="h-14 w-14"
-          ></img>
-        </div>
+          />
+        </li>
 
-        <div className="flex flex-col items-center">
+        <li className="flex flex-col items-center">
           <img
             loading="lazy"
             decoding="async"
             title="TAILWIND"
             src="/Habilidades/TAILWIND.png"
+            alt="TAILWIND"
             className="h-14 w-14"
-          ></img>
-        </div>
+          />
+        </li>
 
-        <div className="flex flex-col items-center">
+        <li className="flex flex-col items-center">
           <img
             loading="lazy"
             decoding="async"
             title="JavaScript"
             src="/Habilidades/JS.png"
+            alt="JavaScript"
             className="h-14 w-14"
-          ></img>
-        </div>
+          />
+        </li>
 
-        <div className="flex flex-col items-center">
+        <li className="flex flex-col items-center">
           <img
             loading="lazy"
             decoding="async"
             title="REACT"
             src="/Habilidades/react.png"
+            alt="REACT"
             className="h-14 w-14"
-          ></img>
-        </div>
+          />
+        </li>
 
-        <div className="flex flex-col items-center">
+        <li className="flex flex-col items-center">
           <img
             loading="lazy"
             decoding="async"
             title="BOAS PRÁTICAS"
             src="/Habilidades/BOAS.png"
+            alt="BOAS PRÁTICAS"
             className="h-14 w-14 bg-white/80 rounded-md"
-          ></img>
-        </div>
-        <div className="flex flex-col items-center">
+          />
+        </li>
+        <li className="flex flex-col items-center">
           <img
             loading="lazy"
             decoding="async"
             title="TypeScript"
             src="/Habilidades/TS.png"
+            alt="TypeScript"
             className="h-14 w-14"
-          ></img>
-        </div>
-      </div>
-      <h3 className="text-lg leading-relaxed text-white text-center mx-10 mt-10">
+          />
+        </li>
+      </ul>
+      <p className="text-lg leading-relaxed text-white text-center mx-10 mt-10">
         Tenho experiência prática com HTML, CSS, Tailwind CSS e JavaScript, e
         venho evoluindo constantemente em React, criando interfaces funcionais,
         organizadas e responsivas. No dia a dia, trabalho com manipulação do
@@ -84,7 +94,7 @@ export function Habilidades() {
         aos detalhes. Meu foco é melhorar continuamente minha capacidade de
         resolver problemas, aprender novas técnicas e entregar soluções limpas e
         eficientes.
-      </h3>
-    </div>
+      </p>
+    </section>
   );
 }

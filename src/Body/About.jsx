@@ -3,15 +3,18 @@ import { Download } from "lucide-react";
 
 export function About() {
   return (
-    <div>
-      <div className="flex flex-col">
-        <h2 className="text-3xl font-bold mb-6 text-white text-center mt-10">
-          Pedro Paulo
-        </h2>
-        <h2 className="text-xl font-semibold mb-6 text-white text-center">
-          Desenvolvimento front-end com foco em código limpo
-        </h2>
-      </div>
+    <section>
+      <header>
+        <div className="flex flex-col">
+          <h2 className="text-3xl font-bold mb-6 text-white text-center mt-10">
+            Pedro Paulo
+          </h2>
+          <p className="text-xl font-semibold mb-6 text-white text-center">
+            Desenvolvimento front-end com foco em código limpo
+          </p>
+        </div>
+      </header>
+
       <div className="flex flex-col md:flex-row w-full items-center justify-center md:justify-between px-6 md:px-20 gap-10">
         <section className="text-white py-20">
           <div className="container text-center mx-auto px-4">
@@ -33,6 +36,7 @@ export function About() {
             </a>
           </div>
         </section>
+
         <section className="py-20">
           <div className="container mx-auto px-4">
             <img
@@ -45,6 +49,6 @@ export function About() {
           </div>
         </section>
       </div>
-    </div>
+    </section>
   );
 }

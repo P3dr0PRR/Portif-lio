@@ -3,16 +3,16 @@ import { Linkedin } from "lucide-react";
 
 export function Contato() {
   return (
-    <div className="flex flex-col justify-between items-center  text-white">
+    <section className="flex flex-col justify-between items-center text-white">
       <h1 className="text-4xl font-bold p-6   text-center">Contato</h1>
-      <h3 className="text-lg leading-relaxed text-white text-center mx-10 mt-10">
+      <p className="text-lg leading-relaxed text-white text-center mx-10 mt-10">
         Fique à vontade para entrar em contato comigo para trocar ideias sobre
         desenvolvimento, compartilhar oportunidades ou iniciar uma colaboração.
         Estou disponível pelo GitHub, LinkedIn, email ou telefone.
-      </h3>
+      </p>
 
       <div className="flex flex-col justify-center items-center  my-12 w-full text-white p-1 gap-4">
-        <div className="flex flex-col md:flex-row  items-center justify-between md:justify-evenly w-full px-4">
+        <address className="flex flex-col md:flex-row  items-center justify-between md:justify-evenly w-full px-4">
           <div className="flex items-center md:text-xl">
             <p className="mr-1 font-semibold ">Email: </p>
             <p> pedropaulo@interlinksistemas.com.br</p>
@@ -22,13 +22,14 @@ export function Contato() {
             <p className="mr-1 font-semibold ">Celular: </p>
             <p> (34)99796-7512</p>
           </div>
-        </div>
+        </address>
 
-        <div className="flex items-center justify-center gap-2 mb-1">
+        <nav className="flex items-center justify-center gap-2 mb-1">
           <a
             href="https://github.com/P3dr0PRR"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="Meu perfil no GitHub"
           >
             <Github className="text-white w-6 h-6 hover:text-gray-400 cursor-pointer hover:scale-110" />
           </a>
@@ -36,11 +37,12 @@ export function Contato() {
             href="https://www.linkedin.com/in/pedrocadev"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="Meu perfil no LinkedIn"
           >
             <Linkedin className="text-white w-6 h-6 hover:text-gray-400 cursor-pointer hover:scale-110" />
           </a>
-        </div>
+        </nav>
       </div>
-    </div>
+    </section>
   );
 }
