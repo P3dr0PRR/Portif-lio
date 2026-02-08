@@ -10,7 +10,7 @@ export function Habilidades() {
       >
         <li className="flex flex-col items-center">
           <img
-            loading="lazy"
+            loading="eager"
             decoding="async"
             title="HTML"
             src="/Habilidades/HTML.png"
@@ -21,7 +21,7 @@ export function Habilidades() {
 
         <li className="flex flex-col items-center">
           <img
-            loading="lazy"
+            loading="eager"
             decoding="async"
             title="CSS"
             src="/Habilidades/CSS.png"
@@ -32,7 +32,7 @@ export function Habilidades() {
 
         <li className="flex flex-col items-center">
           <img
-            loading="lazy"
+            loading="eager"
             decoding="async"
             title="TAILWIND"
             src="/Habilidades/TAILWIND.png"
@@ -43,7 +43,7 @@ export function Habilidades() {
 
         <li className="flex flex-col items-center">
           <img
-            loading="lazy"
+            loading="eager"
             decoding="async"
             title="JavaScript"
             src="/Habilidades/JS.png"
@@ -54,7 +54,7 @@ export function Habilidades() {
 
         <li className="flex flex-col items-center">
           <img
-            loading="lazy"
+            loading="eager"
             decoding="async"
             title="REACT"
             src="/Habilidades/react.png"
@@ -65,7 +65,7 @@ export function Habilidades() {
 
         <li className="flex flex-col items-center">
           <img
-            loading="lazy"
+            loading="eager"
             decoding="async"
             title="BOAS PRÁTICAS"
             src="/Habilidades/BOAS.png"
@@ -75,7 +75,7 @@ export function Habilidades() {
         </li>
         <li className="flex flex-col items-center">
           <img
-            loading="lazy"
+            loading="eager"
             decoding="async"
             title="TypeScript"
             src="/Habilidades/TS.png"

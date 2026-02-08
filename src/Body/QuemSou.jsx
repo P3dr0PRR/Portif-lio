@@ -7,7 +7,7 @@ export function QuemSou() {
         <div className="w-full md:w-auto">
           <figure>
             <img
-              loading="lazy"
+              loading="eager"
               decoding="async"
               src="/Fotos/Pedro.jpg"
               alt="Foto Pedro Paulo"

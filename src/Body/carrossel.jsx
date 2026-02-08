@@ -11,6 +11,11 @@ export function Carrossel() {
       link: "https://gerenciador-de-tarefas-five-khaki.vercel.app/",
     },
     {
+      nome: "Best Trip Methods",
+      image: "/Projetos/Best_Trip_Methods.png",
+      link: "https://best-trip-methods-pot1-jvwcgw8lz-pedros-projects-dd604c73.vercel.app/",
+    },
+    {
       nome: "Mais conteúdos no meu GitHub",
       image: "/Projetos/DispGit.png",
       link: "https://github.com/P3dr0PRR",
@@ -38,7 +43,7 @@ export function Carrossel() {
               alt={projectsObject[currentSlide].nome}
               loading="lazy"
               decoding="async"
-              className="absolute inset-0 h-full w-full object-cover"
+              className="absolute inset-0 h-full w-full object-contain p-2"
             />
           </div>
           <figcaption className="p-6 text-center">
@@ -72,9 +77,9 @@ export function Carrossel() {
             {projectsObject.map((_, index) => (
               <button
                 key={index}
-                onClick={() => setCurrentSlide(index)} // ← Falta isso!
-                aria-label={`Ir para projeto ${index + 1}`} // ← E isso!
-                aria-current={index === currentSlide ? "true" : "false"} // ← E isso!
+                onClick={() => setCurrentSlide(index)}
+                aria-label={`Ir para projeto ${index + 1}`}
+                aria-current={index === currentSlide ? "true" : "false"}
                 className={`h-2 w-2 rounded-full transition ${
                   index === currentSlide ? "bg-blue-600" : "bg-gray-400"
                 }`}
