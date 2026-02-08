@@ -9,16 +9,19 @@ export function Carrossel() {
       nome: "Gerenciador de tarefas",
       image: "/Projetos/Gerenciador_de_Tarefas.png",
       link: "https://gerenciador-de-tarefas-five-khaki.vercel.app/",
+      cta: "Confira o projeto",
     },
     {
       nome: "Best Trip Methods",
       image: "/Projetos/Best_Trip_Methods.png",
       link: "https://best-trip-methods-pot1-jvwcgw8lz-pedros-projects-dd604c73.vercel.app/",
+      cta: "Confira o projeto",
     },
     {
       nome: "Mais conteúdos no meu GitHub",
       image: "/Projetos/DispGit.png",
       link: "https://github.com/P3dr0PRR",
+      cta: "Vizualizar GitHub",
     },
   ];
 
@@ -56,7 +59,7 @@ export function Carrossel() {
               rel="noopener noreferrer"
               className="text-blue-500 hover:underline"
             >
-              Conferir
+              {projectsObject[currentSlide].cta}
             </a>
           </figcaption>
         </figure>
