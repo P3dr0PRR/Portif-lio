@@ -87,40 +87,60 @@ export function Habilidades() {
         </li>
 
         <li className="flex flex-col items-center">
-          <div className="rounded-md ring-2 p-2 ring-sky-500/50 bg-[url('Habilidades/SkillsBg.png')] bg-cover bg-center">
-            <img
-              loading="eager"
-              decoding="async"
-              title="REACT"
-              src="Habilidades/react.png"
-              alt="REACT"
-              className="h-14 w-14"
-            />
+          <div
+            className="w-20 h-20 rounded-md ring-2 ring-blue-500/50 
+              bg-[url('Habilidades/SkillsBg.png')] 
+                  bg-cover bg-center 
+                  flex items-center justify-center"
+          >
+            <div className=" w-full h-full flex items-center justify-center rounded-md">
+              <img
+                loading="eager"
+                decoding="async"
+                title="React"
+                src="Habilidades/react.png"
+                alt="React"
+              />
+            </div>
           </div>
         </li>
 
         <li className="flex flex-col items-center">
-          <div className="rounded-md ring-2 p-2 ring-gray-100/50 bg-[url('Habilidades/SkillsBg.png')] bg-cover bg-center">
-            <img
-              loading="eager"
-              decoding="async"
-              title="BOAS PRÁTICAS"
-              src="Habilidades/BOAS.png"
-              alt="BOAS PRÁTICAS"
-              className="h-14 w-14 bg-white/80 rounded-md"
-            />
+          <div
+            className="w-20 h-20 rounded-md ring-2 ring-gray-100/50 
+              bg-[url('Habilidades/SkillsBg.png')] 
+                  bg-cover bg-center 
+                  flex items-center justify-center"
+          >
+            <div className=" w-full h-full flex items-center justify-center p-3">
+              <img
+                loading="eager"
+                decoding="async"
+                title="Boas Práticas"
+                src="Habilidades/BOAS.png"
+                alt="Boas Práticas"
+                className="bg-slate-300 rounded-md"
+              />
+            </div>
           </div>
         </li>
         <li className="flex flex-col items-center">
-          <div className="rounded-md ring-2 p-2 ring-blue-500/50 bg-[url('Habilidades/SkillsBg.png')] bg-cover bg-center">
-            <img
-              loading="eager"
-              decoding="async"
-              title="TypeScript"
-              src="Habilidades/TS.png"
-              alt="TypeScript"
-              className="h-14 w-14"
-            />
+          <div
+            className="w-20 h-20 rounded-md ring-2 ring-blue-400/50 
+              bg-[url('Habilidades/SkillsBg.png')] 
+                  bg-cover bg-center 
+                  flex items-center justify-center"
+          >
+            <div className=" w-full h-full flex items-center justify-center rounded-md">
+              <img
+                loading="eager"
+                decoding="async"
+                title="TypeScript"
+                src="Habilidades/TS.png"
+                alt="TypeScript"
+                className="w-16 h-16"
+              />
+            </div>
           </div>
         </li>
       </ul>
